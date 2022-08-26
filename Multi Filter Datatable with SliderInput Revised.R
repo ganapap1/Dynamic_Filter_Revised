@@ -667,7 +667,7 @@ server <- function(input, output, session) {
                {
                  # # Layout to split the screen
                  
-                 layout(mat = matrix(c(1,2),nrow=2,ncol = 1, byrow=TRUE),  height = c(8,3))
+                 layout(p = matrix(c(1,2),nrow=2,ncol = 1, byrow=TRUE),  height = c(8,3))
                  
                  # # boxplot(vmy$data_1()[,input$radioreply , horizontal=TRUE , ylim=c(-10,10), xaxt="n" , col=rgb(0.8,0.8,0,0.5) , frame=F)
                  par(mar=c(0, 3.1, 1.1, 2.1)) # #par("mar") (bottom, left, top, right) in lines
